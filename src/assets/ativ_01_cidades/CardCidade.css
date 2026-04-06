@@ -1,0 +1,78 @@
+/* Estilo geral da página (opcional) */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+}
+
+.container{
+    display: flex; 
+    justify-content: center;
+    gap: 1.2rem; 
+    flex-wrap: wrap; 
+    padding: 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 17.5rem;
+    background-color: #faf4c3;
+    border: 1px solid #dcdcdc;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0,90,90,0.08);
+}
+
+.nome {
+    font-size: 1.3rem;
+    color: #7e5509;
+}
+
+p.nome {
+    text-align: center;
+    font-size: 1.1rem;
+
+    margin-top: -1.2rem;
+    margin-bottom: 0.8rem;
+}
+
+.imagem {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.votos {
+    color: #7e5509;
+    text-align: justify;
+    line-height: 1.2;
+    margin-top: 1rem;
+}
+
+.botoes {
+  display: flex;
+  gap: 10px; /* espaço entre os botões */
+  justify-content: center; /* centraliza */
+  margin-top: 20px;
+}
+
+.botoes button {
+  background-color: #faf4c3;
+  color: #7e5509;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.botoes button:hover {
+  background-color: #f7edad;
+}
