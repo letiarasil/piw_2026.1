@@ -2,7 +2,7 @@
 //import TeacherProfileList from "./components/TeacherProfileList"
 //import PokemonPages from "./assets/aula_hook/PokemonPages"
 
-import CardCidadeList from "./assets/ativ_01_cidades/CardCidadeList"
+import CardCidadeList from "./components/ativ_01_cidades/CardCidadeList"
 
 
 //import FormularioAluno from "./assets/aula_04/FormularioAluno"
