@@ -1,4 +1,9 @@
 function BotoesVotacao() {
+
+    function votar() {
+
+    }
+
     return(
         <div className="botoes">
             <button onClick={votar}>Quixadá</button>

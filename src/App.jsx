@@ -2,6 +2,7 @@
 //import TeacherProfileList from "./components/TeacherProfileList"
 //import PokemonPages from "./assets/aula_hook/PokemonPages"
 
+import BotoesVotacao from "./components/ativ_01_cidades/BotoesVotacao"
 import CardCidadeList from "./components/ativ_01_cidades/CardCidadeList"
 
 
@@ -21,6 +22,7 @@ function App() {
   return(
     <div className="container">
       <CardCidadeList />
+      <BotoesVotacao />
     </div>
   )
 }
